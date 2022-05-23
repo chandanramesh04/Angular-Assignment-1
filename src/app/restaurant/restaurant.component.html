@@ -1,0 +1,74 @@
+<div class="Layout-Data container-fluid">
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <div class="menu-Data container-fluid">
+                <span class="title-text">Restaurant App</span>
+                <span class="button-text" data-bs-toggle="modal" data-bs-target="#myModal">Add Restaurant</span>
+            </div>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Modal Heading</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form>
+                                <label>Restaurant ID :</label><br>
+                                <input type="text" name="restuarantID"><br>
+                                <label>Name :</label><br>
+                                <input type="text" name="Name"><br>
+                                <label>Mail id :</label><br>
+                                <input type="text" name="Name"><br>
+                                <label>Location :</label><br>
+                                <input type="text" name="Name"><br>
+                                <label>Menu :</label><br>
+                                <input type="text" name="Name"><br>
+                                <label>Action :</label><br>
+                                <input type="text" name="Name"><br>
+                            </form>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="Main-Content">
+        <table>
+            <thead>
+                <tr>
+                    <td>Restaurant ID</td>
+                    <td>Name</td>
+                    <td>Mail id</td>
+                    <td>Location</td>
+                    <td>Menu</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sea Shell</td>
+                    <td>seashell123@gmail.com</td>
+                    <td>Bangalore</td>
+                    <td>South and North Indian Food</td>
+                    <td class="action-Data">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>restaurant works!</p>
+</div>
